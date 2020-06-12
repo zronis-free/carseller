@@ -1,0 +1,1 @@
+let iconmenu=document.querySelector(".icon-menu");iconmenu.addEventListener("click",(function(){iconmenu.classList.toggle("icon-menu__active"),document.querySelector(".menu__body").classList.toggle("menu__body__active")}));

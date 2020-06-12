@@ -1,0 +1,1 @@
+let header__icon=document.querySelector(".search-header__icon");header__icon.addEventListener("click",(function(){let e=document.querySelector(".search-header__search");e.classList.toggle("search-header__search-active"),header__icon.classList.toggle("search-header__icon-active"),e.focus()}));
